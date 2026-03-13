@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* Add any global styles here */
-
+/* Global styles for modern font and smooth transitions */
 body {
   font-family: 'Inter', sans-serif;
+}
+
+/* Smooth transitions for hover effects */
+.transition-smooth {
+  transition: all 0.3s ease-in-out;
 }
