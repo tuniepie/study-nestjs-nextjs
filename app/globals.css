@@ -9,3 +9,32 @@ body {
 .transition-smooth {
   transition: all 0.3s ease-in-out;
 }
+
+/* Custom styles for the login form */
+.bg-slate-50 {
+  background-color: #f8fafc;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.focus\:ring-indigo-500 {
+  --tw-ring-color: #6366f1;
+}
+
+.focus\:border-indigo-500 {
+  border-color: #6366f1;
+}
+
+.hover\:bg-indigo-700:hover {
+  background-color: #4338ca;
+}
+
+.active\:scale-95:active {
+  transform: scale(0.95);
+}
