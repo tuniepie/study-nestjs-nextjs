@@ -53,3 +53,18 @@ body.dark {
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
+
+footer {
+  background-color: #1f2937; /* Tailwind's gray-800 */
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #9ca3af; /* Tailwind's gray-400 */
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
