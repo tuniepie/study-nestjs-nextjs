@@ -1,9 +1,9 @@
 :root {
   --color-primary: #ffffff;
-  --color-secondary: #1a1a1a;
-  --color-accent: #6c63ff;
-  --color-text: #333333;
-  --color-text-dark: #ffffff;
+  --color-secondary: #1e293b; /* Slate-800 */
+  --color-accent: #4f46e5; /* Indigo-600 */
+  --color-text: #334155; /* Slate-700 */
+  --color-text-dark: #f8fafc; /* Slate-50 */
   --font-family: 'Inter', sans-serif;
   --font-size-base: 16px;
   --border-radius: 8px;
@@ -13,9 +13,9 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-primary: #1a1a1a;
-    --color-secondary: #ffffff;
-    --color-text: #ffffff;
+    --color-primary: #1e293b; /* Slate-800 */
+    --color-secondary: #f8fafc; /* Slate-50 */
+    --color-text: #f8fafc; /* Slate-50 */
   }
 }
 
