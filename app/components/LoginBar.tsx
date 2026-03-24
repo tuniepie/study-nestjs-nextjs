@@ -18,13 +18,13 @@ const LoginBar: React.FC = () => {
           <label htmlFor="username" className="block text-sm font-medium text-slate-700 dark:text-slate-300 flex items-center">
             <User className="mr-2" /> Email
           </label>
-          <input type="email" id="username" placeholder="Email" className="mt-1 block w-full px-4 py-3 border border-slate-300 dark:border-slate-700 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 transition duration-150 ease-in-out bg-slate-50 dark:bg-slate-800" />
+          <input type="email" id="username" placeholder="Email" className="mt-1 block w-full px-4 py-3 border border-slate-300 dark:border-slate-700 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 transition duration-150 ease-in-out bg-slate-50 dark:bg-slate-800" />
         </div>
         <div className="relative">
           <label htmlFor="password" className="block text-sm font-medium text-slate-700 dark:text-slate-300 flex items-center">
             <Lock className="mr-2" /> Password
           </label>
-          <input type={showPassword ? "text" : "password"} id="password" placeholder="Password" className="mt-1 block w-full px-4 py-3 border border-slate-300 dark:border-slate-700 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 transition duration-150 ease-in-out bg-slate-50 dark:bg-slate-800" />
+          <input type={showPassword ? "text" : "password"} id="password" placeholder="Password" className="mt-1 block w-full px-4 py-3 border border-slate-300 dark:border-slate-700 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 transition duration-150 ease-in-out bg-slate-50 dark:bg-slate-800" />
           <button type="button" onClick={togglePasswordVisibility} className="absolute right-3 top-3 text-slate-400">
             {showPassword ? <EyeOff /> : <Eye />}
           </button>
@@ -32,7 +32,7 @@ const LoginBar: React.FC = () => {
         <div className="flex justify-between items-center">
           <a href="#" className="text-sm text-indigo-600 hover:underline transition duration-300">Forgot password?</a>
         </div>
-        <button type="submit" className="w-full bg-indigo-600 text-white py-3 px-6 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50 transition duration-150 ease-in-out active:scale-95">
+        <button type="submit" className="w-full bg-indigo-600 text-white py-3 px-6 rounded-xl hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50 transition duration-150 ease-in-out active:scale-95">
           Login
         </button>
         <div className="flex items-center my-6">
@@ -41,10 +41,10 @@ const LoginBar: React.FC = () => {
           <div className="flex-grow border-t border-slate-300 dark:border-slate-600"></div>
         </div>
         <div className="flex justify-between">
-          <button type="button" className="flex items-center justify-center w-full py-2 px-4 border border-slate-300 dark:border-slate-600 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition duration-150 ease-in-out mr-2">
+          <button type="button" className="flex items-center justify-center w-full py-2 px-4 border border-slate-300 dark:border-slate-600 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition duration-150 ease-in-out mr-2">
             <Github className="mr-2" /> GitHub
           </button>
-          <button type="button" className="flex items-center justify-center w-full py-2 px-4 border border-slate-300 dark:border-slate-600 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition duration-150 ease-in-out ml-2">
+          <button type="button" className="flex items-center justify-center w-full py-2 px-4 border border-slate-300 dark:border-slate-600 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition duration-150 ease-in-out ml-2">
             {/* Insert Google G SVG Icon here */}
             Google
           </button>
