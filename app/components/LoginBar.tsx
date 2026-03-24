@@ -10,7 +10,7 @@ const LoginBar: React.FC = () => {
   };
 
   return (
-    <div className="glassmorphism p-8 rounded-3xl shadow-lg fade-in">
+    <div className="glassmorphism p-8 rounded-3xl shadow-lg fade-in hover-lift">
       <h2 className="text-3xl font-bold text-center text-slate-800 dark:text-slate-50 mb-2">Welcome back</h2>
       <p className="text-center text-slate-600 dark:text-slate-400 mb-8">Sign in to your account to continue</p>
       <form className="space-y-6">
