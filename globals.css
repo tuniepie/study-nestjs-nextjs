@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #1a1a1a;
+  --color-accent: #6c63ff;
+  --color-text: #333333;
+  --color-text-dark: #ffffff;
+  --font-family: 'Inter', sans-serif;
+  --font-size-base: 16px;
+  --border-radius: 8px;
+  --transition-duration: 0.3s;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #1a1a1a;
+    --color-secondary: #ffffff;
+    --color-text: #ffffff;
+  }
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  transition: background-color var(--transition-duration), color var(--transition-duration);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: var(--border-radius);
+  padding: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn var(--transition-duration) ease-in-out;
+}
