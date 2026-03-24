@@ -101,3 +101,24 @@ footer a {
 footer a:hover {
   color: #ffffff;
 }
+
+/* New styles for dark mode toggle */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.text-yellow-500 {
+  color: #ecc94b;
+}
+
+.text-gray-500 {
+  color: #a0aec0;
+}
+
+.focus\:ring-blue-500 {
+  --tw-ring-color: #4299e1;
+}
