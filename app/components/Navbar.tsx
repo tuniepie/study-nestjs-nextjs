@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 glassmorphism">
+    <nav className="flex justify-between items-center p-4 glassmorphism hover-lift">
       <div className="text-xl font-bold text-slate-800 dark:text-slate-50">Brand</div>
       <button 
         onClick={toggleTheme} 
