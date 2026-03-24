@@ -6,7 +6,7 @@
   --color-text-dark: #f8fafc; /* Slate-50 */
   --font-family: 'Inter', sans-serif;
   --font-size-base: 16px;
-  --border-radius: 8px;
+  --border-radius: 1rem; /* Updated to rounded-xl equivalent */
   --transition-duration: 0.3s;
 }
 
@@ -32,6 +32,10 @@ body {
   backdrop-filter: blur(10px);
   border-radius: var(--border-radius);
   padding: 20px;
+}
+
+.rounded-xl {
+  border-radius: 1rem;
 }
 
 @keyframes fadeIn {

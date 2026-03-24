@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="text-xl font-bold text-slate-800 dark:text-slate-50">Brand</div>
       <button 
         onClick={toggleTheme} 
-        className="p-2 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 transition duration-300"
+        className="p-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 transition duration-300"
         aria-label="Toggle Dark Mode"
       >
         {isDarkMode ? <Sun className="w-6 h-6 text-yellow-500" /> : <Moon className="w-6 h-6 text-slate-500" />}
