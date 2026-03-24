@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from 'react';
 import { User, Lock, Github, Eye, EyeOff } from 'lucide-react';
 
@@ -11,7 +10,7 @@ const LoginBar: React.FC = () => {
   };
 
   return (
-    <div className="glassmorphism p-8 rounded-3xl shadow-lg">
+    <div className="glassmorphism p-8 rounded-3xl shadow-lg fade-in">
       <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-2">Welcome back</h2>
       <p className="text-center text-gray-600 dark:text-gray-400 mb-8">Sign in to your account to continue</p>
       <form className="space-y-6">
@@ -31,7 +30,7 @@ const LoginBar: React.FC = () => {
           </button>
         </div>
         <div className="flex justify-between items-center">
-          <a href="#" className="text-sm text-indigo-600 hover:underline">Forgot password?</a>
+          <a href="#" className="text-sm text-indigo-600 hover:underline transition duration-300">Forgot password?</a>
         </div>
         <button type="submit" className="w-full bg-gradient-to-r from-indigo-500 to-violet-600 text-white py-3 px-6 rounded-lg hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50 transition duration-150 ease-in-out active:scale-95">
           Login
@@ -51,7 +50,7 @@ const LoginBar: React.FC = () => {
           </button>
         </div>
         <div className="text-center mt-4">
-          <span className="text-gray-500 dark:text-gray-400">Don't have an account? </span><a href="#" className="text-indigo-600 hover:underline">Sign up</a>
+          <span className="text-gray-500 dark:text-gray-400">Don't have an account? </span><a href="#" className="text-indigo-600 hover:underline transition duration-300">Sign up</a>
         </div>
       </form>
     </div>
