@@ -12,6 +12,11 @@ body.dark {
   color: #f4f4f5;
 }
 
+/* Unified border radius for buttons and inputs */
+button, input {
+  border-radius: 0.75rem; /* rounded-xl */
+}
+
 /* Smooth transitions for hover effects */
 .transition-smooth {
   transition: all 0.3s ease-in-out;
