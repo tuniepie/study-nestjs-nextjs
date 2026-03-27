@@ -26,7 +26,7 @@ const LoginBar: React.FC = () => {
               <Lock className="mr-2" /> Password
             </label>
             <input type={showPassword ? "text" : "password"} id="password" placeholder="Password" className="mt-1 block w-full px-4 py-3 border border-slate-300 dark:border-slate-700 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-indigo-600 transition duration-150 ease-in-out bg-slate-50 dark:bg-slate-800" />
-            <button type="button" onClick={togglePasswordVisibility} className="absolute right-3 top-3 text-slate-400">
+            <button type="button" onClick={togglePasswordVisibility} className="absolute right-3 top-3 text-slate-400 rounded-xl">
               {showPassword ? <EyeOff /> : <Eye />}
             </button>
           </div>
